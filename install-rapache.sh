@@ -11,10 +11,10 @@
 #
 # Instructions:			run this script as *ROOT*
 #
-# Todo:					-Ability to install in 32 bit machines
-#						-Option to install R from source
+# Todo:				-Ability to install in 32 bit machines
+#				-Option to install R from source
 #
-# Author:				JT
+# Author:			JT
 ###############################################################################
 
 export EXPECTED_HASH=f66641def8127efd35b76d6e32bfaa13
