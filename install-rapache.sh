@@ -126,4 +126,4 @@ then
 
 	#Open Browser with info page
 	open http://localhost/RApacheInfo
-then
+fi
