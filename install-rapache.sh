@@ -74,6 +74,8 @@ sudo make install
 if [ "$EXPECTED_HASH" == "$ACTUAL_HASH" ];
 
 then
+	cp /private/etc/apache2/httpd.conf /private/etc/apache2/httpd.conf_bk
+
 	sed -i '' -e '118i\
 	LoadModule R_module libexec/apache2/mod_R.so' /private/etc/apache2/httpd.conf
 
