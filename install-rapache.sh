@@ -5,9 +5,9 @@
 # Description:			Script to install & setup R(Apache) on Mac OS 10.6
 #
 # Prerequisites:		Xcode  (free Xcode3 can be downloaded here: http://bit.ly/xcode3Download)
-#						R (Easy install R-2.13.0.pkg from http://cran.r-project.org/bin/macosx)
-#						Ensure you click 'Customize' and select 'R GUI 1.40 (64-bit)'
-#						if your machine supports it
+#				R (Easy install R-2.13.0.pkg from http://cran.r-project.org/bin/macosx)
+#				Ensure you click 'Customize' and select 'R GUI 1.40 (64-bit)'
+#				if your machine supports it
 #
 # Instructions:			run this script as *ROOT*
 #
