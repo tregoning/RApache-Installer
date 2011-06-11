@@ -115,6 +115,11 @@ echo '
 # Required for report about R running within Apache
 <Location /RApacheInfo>
     SetHandler r-info
+</Location>
+
+<Location /r>
+	SetHandler r-script
+	RHandler sys.source
 </Location>' >> /private/etc/apache2/httpd.conf
 
 
