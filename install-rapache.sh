@@ -118,8 +118,8 @@ echo '
 </Location>
 
 <Location /r>
-	SetHandler r-script
-	RHandler sys.source
+    SetHandler r-script
+    RHandler sys.source
 </Location>' >> /private/etc/apache2/httpd.conf
 
 
