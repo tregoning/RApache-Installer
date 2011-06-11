@@ -6,8 +6,13 @@
 #
 # Prerequisites:		Xcode  (free Xcode3 can be downloaded here: http://bit.ly/xcode3Download)
 #						R (Easy install R-2.13.0.pkg from http://cran.r-project.org/bin/macosx)
+#						Ensure you click 'Customize' and select 'R GUI 1.40 (64-bit)'
+#						if your machine supports it
 #
 # Instructions:			run this script as *ROOT*
+#
+# Todo:					-Ability to install in 32 bit machines
+#						-Option to install R from source
 #
 # Author:				JT
 ###############################################################################
@@ -33,7 +38,10 @@ if [ ! -s /usr/bin/R64 ]; then
 	echo "
 		Error: Required software is not installed in your system
 		
-		R is a prerequisite for installing R(Apache) install R-2.13.0.pkg from http://cran.r-project.org/bin/macosx
+		R is a prerequisite for installing R(Apache)
+		Please install R-2.13.0.pkg from http://cran.r-project.org/bin/macosx and,
+		during the setup ensure you click 'Customize' and add the 'R GUI 1.40 (64-bit) option
+		if your machine supports it'
 		"
 	exit
 fi
