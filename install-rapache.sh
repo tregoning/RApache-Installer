@@ -1,6 +1,6 @@
 #!/bin/bash -
 ###############################################################################
-# File: 				install-rapache.sh
+# File: 			install-rapache.sh
 #
 # Description:			Script to install & setup R(Apache) on Mac OS 10.6
 #
