@@ -70,7 +70,7 @@ sudo make install
 
 #Installing R(Apache)
 cd /tmp
-curl -O http://rapache.net/files/rapache-1.1.14.tar.gz
+curl -O http://biostat.mc.vanderbilt.edu/svn/rapache/web/files/rapache-1.1.14.tar.gz
 tar xzvf rapache-1.1.14.tar.gz
 cd rapache-1.1.14
 ./configure --with-apache2-apxs=/usr/sbin/apxs --with-R=/usr/bin/R64
